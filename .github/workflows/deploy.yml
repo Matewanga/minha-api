@@ -29,8 +29,8 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/minha-api:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/minha-api:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_Matewanga }}/minha-api:latest
+            ${{ secrets.DOCKERHUB_Matewanga }}/minha-api:${{ github.sha }}
 
       - name: Disparar deploy no Render
         env:
