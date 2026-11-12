@@ -20,7 +20,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: matewanga
-          password: ${{ secrets.DOCKERHUB_MATEWANGA }}
+          password: ${{ secrets.DOCKERHUB_Matewanga }}
 
       - name: Construir e publicar imagem
         uses: docker/build-push-action@v6
